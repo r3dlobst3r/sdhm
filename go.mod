@@ -1,4 +1,4 @@
-module github.com/saltyorg/sdhm
+module github.com/r3dlobst3r/sdhm
 
 go 1.25.5
 

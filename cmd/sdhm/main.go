@@ -9,11 +9,11 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/saltyorg/sdhm/internal/config"
-	"github.com/saltyorg/sdhm/internal/hosts"
-	"github.com/saltyorg/sdhm/internal/logger"
-	"github.com/saltyorg/sdhm/internal/timeutil"
-	"github.com/saltyorg/sdhm/internal/updater"
+	"github.com/r3dlobst3r/sdhm/internal/config"
+	"github.com/r3dlobst3r/sdhm/internal/hosts"
+	"github.com/r3dlobst3r/sdhm/internal/logger"
+	"github.com/r3dlobst3r/sdhm/internal/timeutil"
+	"github.com/r3dlobst3r/sdhm/internal/updater"
 
 	"github.com/spf13/cobra"
 )

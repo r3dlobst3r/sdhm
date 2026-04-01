@@ -24,7 +24,7 @@ A daemon that automatically updates `/etc/hosts` with Docker container hostnames
 
 ```bash
 # Clone the repository
-git clone https://github.com/saltyorg/sdhm.git
+git clone https://github.com/r3dlobst3r/sdhm.git
 cd sdhm
 
 # Build the binary
@@ -36,11 +36,11 @@ sudo make install
 
 ### Option 2: Download Pre-built Binary
 
-Download the latest release from the [releases page](https://github.com/saltyorg/sdhm/releases), then:
+Download the latest release from the [releases page](https://github.com/r3dlobst3r/sdhm/releases), then:
 
 ```bash
 # Download and install
-curl -s https://api.github.com/repos/saltyorg/sdhm/releases/latest | jq -r '.assets[] | select(.name == "sdhm_linux_amd64") | .browser_download_url' | xargs sudo curl -Lo /usr/local/bin/sdhm && sudo chmod +x /usr/local/bin/sdhm
+curl -s https://api.github.com/repos/r3dlobst3r/sdhm/releases/latest | jq -r '.assets[] | select(.name == "sdhm_linux_amd64") | .browser_download_url' | xargs sudo curl -Lo /usr/local/bin/sdhm && sudo chmod +x /usr/local/bin/sdhm
 ```
 
 ## Usage
@@ -289,7 +289,7 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/saltyorg/sdhm/issues)
+- **Issues**: [GitHub Issues](https://github.com/r3dlobst3r/sdhm/issues)
 
 ## Acknowledgments
 

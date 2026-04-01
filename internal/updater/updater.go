@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/moby/moby/api/types/events"
-	"github.com/saltyorg/sdhm/internal/config"
-	"github.com/saltyorg/sdhm/internal/debounce"
-	"github.com/saltyorg/sdhm/internal/docker"
-	"github.com/saltyorg/sdhm/internal/hosts"
-	"github.com/saltyorg/sdhm/internal/logger"
+	"github.com/r3dlobst3r/sdhm/internal/config"
+	"github.com/r3dlobst3r/sdhm/internal/debounce"
+	"github.com/r3dlobst3r/sdhm/internal/docker"
+	"github.com/r3dlobst3r/sdhm/internal/hosts"
+	"github.com/r3dlobst3r/sdhm/internal/logger"
 )
 
 const (
